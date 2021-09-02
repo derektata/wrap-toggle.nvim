@@ -1,3 +1,7 @@
+-- TODO: Rewrite the function to check current wrap status using ':set wrap ?',
+-- and implement logic based on the current setting.
+-- NOTES: Will do this at a later time. This hacky solution seems to work for the moment.
+
 
 local o = vim.opt
 local map = vim.api.nvim_set_keymap
