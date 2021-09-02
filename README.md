@@ -26,6 +26,17 @@ init.vim
     require("wrap-toggle").setup()
     EOF
 
+## Recommended setup
+
+Lua:
+
+    use {
+      'derektata/wrap-toggle.nvim',
+      config = function()
+        require('wrap-toggle').setup()
+      end
+    }
+
 ## Usage
 
 | Binding | Mode   | Description             |
