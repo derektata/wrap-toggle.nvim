@@ -22,6 +22,7 @@ function Enable_wrap()
     count = max_count
   end
   o.wrap = true
+  o.linebreak = true
   print("Wrap enabled")
 end
 
@@ -31,6 +32,7 @@ function Disable_wrap()
     count = 0
   end
   o.wrap = false
+  o.linebreak = false
   print("Wrap disabled")
 end
 
