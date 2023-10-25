@@ -4,15 +4,17 @@ Use a single keybind to toggle between wrapping modes 🎁
 
 <img src="_examples/wrap.gif" width="750">
 
+
 ## Installation
 
-Packer:
+Packer/Lazy/etc:
 
     use { 'derektata/wrap-toggle.nvim' }
 
 Vim-Plug:
 
     Plug 'derektata/wrap-toggle.nvim'
+
 
 ## Setup
 
@@ -26,6 +28,7 @@ init.vim
     require("wrap-toggle").setup()
     EOF
 
+
 ## Recommended setup
 
 Lua:
@@ -37,8 +40,16 @@ Lua:
       end
     }
 
+
 ## Usage
 
 | Binding | Mode   | Description             |
 |---------|--------|-------------------------|
 | Alt + z | normal | toggle wrap mode on/off |
+
+
+## Customizing Keybind
+
+Lua:
+
+     require('wrap-toggle').setup({ keybind = "<C-a>" })
